@@ -1,5 +1,0 @@
-services:
-  web:
-    image: "devopsbytanishka/node-app:latest"
-    ports:
-      - "8000:8000"
