@@ -5,7 +5,7 @@ pipeline{
     stages{
         stage("code"){
             steps{
-                git url: "https://github.com/devopsbytanishka/node-app.git", branch:"main"
+                git url: "https://github.com/waximum/node-app.git", branch:"main"
                 echo 'Code is cloned'
             }
         }
